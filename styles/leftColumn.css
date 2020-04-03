@@ -1,0 +1,45 @@
+.leftColumn {
+  width: 1920px;
+
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: column;
+  background-color: #b2b2ac;
+  border: 1px solid #000000;
+  overflow: scroll; 
+ }
+
+.memu {
+  padding-left: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #b2b2ac;
+}
+
+.memu__item {
+  display: flex;
+  align-items: center;
+  font-family: Gilroy;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #000000;
+  margin-right: 60px;
+}
+
+.window {
+  width: 1920px;
+  height: 500px;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 32px);
+  grid-template-columns: repeat(auto-fill, 32px);
+  background-color: #ffffff;
+  
+}
+
+.item {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #000000;
+}
